@@ -7,6 +7,10 @@ Printable and editable resources for the CyberSim [scenario name] scenario.
 
 For general repository workflow, file naming, and release guidance, see the top-level `README.md` and `RELEASES.md`.
 
+## File hygiene
+
+Keep this folder limited to files needed for this scenario. Avoid temporary files, duplicate drafts, local backups, and unclear “final-v2” copies.
+
 ## Current printable files
 
 Use the PDFs in `current/` for printing or sharing.

@@ -119,6 +119,25 @@ The `_archive/` folder is for old files that should not be used for current sess
 
 GitHub already keeps version history, so `_archive/` should be used sparingly. It is mainly a practical holding place for retired materials that people may not want to delete yet.
 
+## Repository hygiene
+
+This repository should contain the files needed to edit, export, print, share, or understand CyberSim resources.
+
+Please avoid committing files that are not needed, such as temporary exports, duplicate drafts, local backup files, cache files, or “just in case” copies.
+
+Before adding a file, ask:
+
+- Is this needed to edit the resource later?
+- Is this the current exported file people should use?
+- Is this a shared asset, template, or note that helps explain the resource?
+- Is this an intentionally archived file that should no longer be used?
+
+If the answer is no, it probably does not belong in the repository.
+
+Keep filenames clear and stable. Avoid files named `final`, `final-v2`, `new`, `old`, `copy`, or `use-this-one`.
+
+Use `_archive/` sparingly for retired materials that should not be used for current sessions. GitHub already preserves file history, so old versions usually do not need to be kept as separate files.
+
 ## Releases
 
 GitHub Releases are optional and should be used only when we need to freeze the exact files used for a specific event, workshop, pilot, translation milestone, or public release.
